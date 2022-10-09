@@ -1,0 +1,69 @@
+<svg id="scroll" xmlns="http://www.w3.org/2000/svg" width="1300px" height="1300px" viewBox="0 0 130 130">
+    <defs>
+        <linearGradient id="Gradient0" x1="0" y1="0" x2="1" y2="0.6">
+            <stop offset="0%" stop-color="#30a3f0"/>
+            <!-- <stop offset="50%" stop-color="#"/> -->
+            <stop offset="100%" stop-color="#31deb0"/>
+        </linearGradient>
+        <linearGradient id="Gradient1" x1="0" y1="0" x2="1" y2="0.6">
+            <stop offset="0%" stop-color="#30a3f0"/>
+            <!-- <stop offset="50%" stop-color="#"/> -->
+            <stop offset="100%" stop-color="#30c1d0"/>
+        </linearGradient>
+        <linearGradient id="Gradient2" x1="0" y1="0" x2="1" y2="0.6">
+            <stop offset="0%" stop-color="#30c1d0"/>
+            <!-- <stop offset="50%" stop-color="#"/> -->
+            <stop offset="100%" stop-color="#31cec2"/>
+        </linearGradient>
+        <linearGradient id="Gradient3" x1="0" y1="0" x2="1" y2="0.6">
+            <stop offset="0%" stop-color="#31cec2"/>
+            <!-- <stop offset="50%" stop-color="#"/> -->
+            <stop offset="100%" stop-color="#31deb0"/>
+        </linearGradient>
+    </defs>
+    <rect x="0" y="0" width="130" height="130" fill="#333"/>
+    <rect class="left" x="23" y="28" width="18" height="74" rx="3" fill="#30a3f0"/>
+    <rect class="axis" x="28.2" y="23" width="8" height="84" rx="2" fill="#30a3f0"/>
+    <path d="M 44 33 H 104 M 104 33 a 7 7 -90 0 1 7 7 V 90 a 7 7 0 0 1 -7 7 M 104 97 H 44 " stroke="url(#Gradient0)" stroke-width="7" stroke-linejoin="round" fill="transparent"/>
+    <!-- <rect x="24" y="21.5" width="64" height="57" rx="4" fill="white"/> -->
+    <text
+        transform="translate(46 75)"
+        font-size="40px"
+        font-family="Quicksand"
+        font-weight="700"
+        fill="url(#Gradient1)"
+    >
+        &lt;
+    </text>
+    <text
+        transform="translate(64 78)"
+        font-size="40px"
+        font-family="Quicksand"
+        font-weight="700"
+        fill="url(#Gradient2)"
+    >
+        /
+    </text>
+    <text
+        transform="translate(84 75)"
+        font-size="40px"
+        font-family="Quicksand"
+        font-weight="700"
+        fill="url(#Gradient3)"
+    >
+        &gt;
+    </text>
+</svg>
+
+<!-- <svg width="120" height="240" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient id="Gradient2" x1="0" x2="0" y1="0" y2="1">
+            <stop offset="0%" stop-color="red"/>
+            <stop offset="50%" stop-color="black" stop-opacity="0"/>
+            <stop offset="100%" stop-color="blue"/>
+        </linearGradient>
+    </defs>
+
+    <rect x="10" y="120" rx="15" ry="15" width="100" height="100" fill="url(#Gradient2)"/>
+
+</svg> -->
